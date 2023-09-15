@@ -1,7 +1,8 @@
 "use client"
 
 import React from 'react'
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, NavbarMenu, NavbarMenuItem, NavbarMenuToggle} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button, NavbarMenu, NavbarMenuItem, NavbarMenuToggle} from "@nextui-org/react";
+import Link from 'next/link';
 
 
 const Nav = () => {
@@ -35,7 +36,7 @@ const Nav = () => {
 
     <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarItem>
-        <Link color="foreground" href="#">
+        <Link color="foreground" href="/features">
           Features
         </Link>
       </NavbarItem>
@@ -67,7 +68,7 @@ const Nav = () => {
             }
             className="w-full"
             href="#"
-            size="lg"
+           
           >
             {item}
           </Link>
