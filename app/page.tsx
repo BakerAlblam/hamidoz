@@ -23,7 +23,7 @@ export default function Home() {
       <div>
       {data?.map((watches: Data) => (
           <div key={watches._id}>
-            <h1> {watches.title} </h1>
+            <h1>Watch tite: {watches.title} </h1>
           </div>
         ))}
           </div>
