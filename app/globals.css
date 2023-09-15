@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.app {
+    @apply relative z-10 flex justify-center items-center flex-col sm:px-16 px-6;
+    
+  }
