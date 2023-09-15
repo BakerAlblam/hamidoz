@@ -40,9 +40,7 @@ const Nav = () => {
         </Link>
       </NavbarItem>
       <NavbarItem isActive>
-        <Link href="#" aria-current="page">
-          Customers
-        </Link>
+    
       </NavbarItem>
       <NavbarItem>
         <Link color="foreground" href="#">
