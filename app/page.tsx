@@ -13,7 +13,7 @@ interface Data {
 export default function Home() {
     
   const { data } = useQuery(["data"], async () => {
-    const res = await axios.get("http://localhost:3000/api/watches")
+    const res = await axios.get("/api/watches")
     console.log(res.data.watches);
     return res.data.watches
     
