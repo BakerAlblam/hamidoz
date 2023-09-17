@@ -73,17 +73,17 @@ const Nav = () => {
         <NavbarItem>
           <Link
             color="foreground"
-            href="#"
+            href="/"
           >
-            Features
+            Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem>
           <Link
-            href="#"
+            href="/allwatches"
             aria-current="page"
           >
-            Customers
+            All Watches
           </Link>
         </NavbarItem>
         <NavbarItem>
