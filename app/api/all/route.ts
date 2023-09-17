@@ -6,6 +6,6 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
     await connectMongoDB();
-    const watches = await Watch.find({}).sort({ _id: -1}).limit(10);
+    const watches = await Watch.find({})
     return NextResponse.json({ watches });
   }

@@ -4,6 +4,7 @@ import Providers from "./providers";
 import Nav from './components/Nav';
 const inter = Inter({ subsets: ['latin'] })
 import '@radix-ui/themes/styles.css';
+import Footer from './components/Footer';
 
 
 export default function RootLayout({ children } : { children: React.ReactNode }) {
@@ -16,7 +17,9 @@ export default function RootLayout({ children } : { children: React.ReactNode })
       <Nav />
         {children}
          </Providers>
+         <Footer />
         </body>
+        
     </html>
    
   )
