@@ -9,3 +9,5 @@ export async function GET() {
     const watches = await Watch.find({}).sort({ _id: -1}).limit(10);
     return NextResponse.json({ watches });
   }
+
+  //hi
